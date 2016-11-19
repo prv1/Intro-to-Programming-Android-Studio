@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+  <HEAD>
+    <TITLE>Star Lord Coffee</TITLE>
+  </HEAD>
+ 
+  <center>
+
+	<table>
+	  <tr>
+	    <td valign='center'><img src='.\images\StarLord.png' alt="Starlord" height='100' width='100'></td>
+	    <td valign='center'>
+	    	<center><H1>Star Lord Coffee</H1></center>
+	    	<center><H3>724-555-5555</H3></center>
+	    <td valign="center"><img src=".\images\StarLord.png" alt="Starlord" height="100" width="100"></td>
+	  </tr>
+	</table>    
+    
+    <HR width="80%">
+
+    <FORM action = '/rinsem/servlet/Coffee' method = 'post'>
+      <TABLE width="80%" align=center>
+        <TR>
+			<TD align = center>
+			 Name:<INPUT maxLength = 20 value = "" name = 'customerName'> 
+			</TD>
+  		</TR>  		
+  		
+  		<TABLE width="40%" align=center>
+
+  		<center><H2>Drink Selection:</H2></center>
+  		<TR>
+  			<TD align = left>
+             <b>Select Size:</b> <BR>
+             <INPUT type = 'radio' value = 'universal' name = 'drinkSize'>Universal<BR>
+             <INPUT type = 'radio' value = 'galactic' name = 'drinkSize'>Galactic<BR>
+             <INPUT type = 'radio' value = 'cosmic' name = 'drinkSize'>Cosmic<BR> 
+           </TD>
+           
+           <TD align = left>
+            <b>Select Beverage:</b> <BR>
+            <INPUT type = 'radio' value = 'rocket' name = 'drinkType'>Rocket<BR>
+            <INPUT type = 'radio' value = 'gamora' name = 'drinkType'>Gamora<BR>
+            <INPUT type = 'radio' value = 'groot' name = 'drinkType'>Groot<BR> 
+           </TD>
+           
+           <TD align = left>
+            <b>Select Milk:</b> <BR>
+            <INPUT type = 'radio' value = 'noMilk' name = 'milkType'>no milk<BR>
+            <INPUT type = 'radio' value = 'spartaxMilk' name = 'milkType'>Spartax milk<BR>
+            <INPUT type = 'radio' value = 'skrullMilk' name = 'milkType'>Skrull milk<BR>
+           </TD>           
+     
+           <TD align = left>
+            <b>Select Options:</b> <BR>
+            <INPUT type = 'checkbox' value = 'terrigen' name = 'drinkOptions'>+ $0.25	Terrigen<BR>
+            <INPUT type = 'checkbox' value = 'infinityDust' name = 'drinkOptions'>+ $0.75	Infinity Dust<BR>
+            <INPUT type = 'checkbox' value = 'trinnamon' name = 'drinkOptions'>+ $1.50	Tribunal Trinnamon<BR>
+           </TD>           
+        </TR>
+        </TABLE>
+        
+       <BR>
+       <TABLE width="40%" align=center>
+        <TR>  
+          <TD align = center>
+          	<INPUT type = 'submit' value = 'Submit Order' name = 'submitbutton'>
+           	<input type="reset" value="Reset"><br>
+          </TD>
+        </TR>
+
+      </TABLE>
+    </FORM>
+
+    <HR width="80%">
+  
+  </body>
+
+</html>

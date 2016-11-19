@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+  <HEAD>
+    <TITLE>Rock, Paper, Scissors</TITLE>
+  </HEAD>
+ 
+  <center>
+
+
+
+    <FORM action = '/viau/servlet/Game' method = 'post'>
+      <TABLE width="80%" align=center>
+        <TR>
+			<TD align = center>
+			 Player Score:<INPUT type = 'text' value = '0' name = 'playerScore'> 
+                          Computer Score:<INPUT type = 'text' value = '0' name = 'computerScore'> 
+			</TD>
+  		</TR>  		
+  		
+  		<TABLE width="100%" align=center>
+
+  		<center><H2>Rock Paper Scissors:</H2></center>
+  		<TR>
+  			<TD align = left>
+             <b>Select Weapon:</b> <BR>
+             <INPUT type = 'radio' value = 'rock' name = 'playerWeapon'>Rock <img src=".\Rock.jpg"><BR>
+             <INPUT type = 'radio' value = 'paper' name = 'playerWeapon'>Paper <img src=".\Paper.jpg"><BR>
+             <INPUT type = 'radio' value = 'scissors' name = 'playerWeapon'>Scissors <img src=".\Scissors.jpg"><BR> 
+           </TD>
+                      
+        </TR>
+        </TABLE>
+        
+       <BR>
+       <TABLE width="40%" align=center>
+        <TR>  
+          <TD align = center>
+          	<INPUT type = 'submit' value = 'Submit Weapon' name = 'submitbutton'>
+           	
+          </TD>
+        </TR>
+
+      </TABLE>
+    </FORM>
+
+    <HR width="80%">
+  
+  </body>
+
+</html>
